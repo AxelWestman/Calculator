@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="calculadora" id=calcu>
+        <div class="tamaño">
+            <div class="number_parts">
+                <input type="text" class="numbers"  id="resultado">
+            </div>
+            <div class="botones">
+                <div class="primera_fila">
+                    <div class="igual"><button type="button" id="igual" class="operacion" >=</button></div>
+                </div>
+                <div class="segunda_fila filas">
+                    <div class="siete redondo" ><button type="button">7</button></div>
+                    <div class="ocho redondo" ><button type="button">8</button></div>
+                    <div class="nueve redondo" ><button type="button">9</button></div>
+                    <div class="mas redondo" ><button type="button" id="sumar" class="operacion">+</button></div>
+                </div> 
+                <div class="tercera_fila filas">
+                    <div class="cuatro redondo"><button type="button">4</button></div>
+                    <div class="cinco redondo"><button type="button">5</button></div>
+                    <div class="seis redondo"><button type="button">6</button></div>
+                    <div class="restar redondo"><button type="button" id="restar" class="operacion">-</button></div>
+                </div>
+                <div class="cuarta_fila filas">
+                    <div class="uno redondo"><button type="button">1</button></div>
+                    <div class="dos redondo"><button type="button">2</button></div>
+                    <div class="tres redondo"><button type="button">3</button></div>
+                    <div class="multiplicar redondo"><button type="button" id="multiplicar" class="operacion">x</button></div>
+                </div>
+                <div class="quinta_fila filas">
+                    <div class="cero redondo" id="cero"><button type="button">0</button></div>
+                    <div class="coma redondo"><button type="button" id="coma">.</button></div>
+                    <div class="borrar redondo"><button type="button" id="borrar" class="operacion">C</button></div>
+                    <div class="dividir redondo"><button type="button" id="dividir" class="operacion">/</button></div>
+                </div>
+            </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
